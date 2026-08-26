@@ -1,0 +1,15 @@
+# Large data files - don't commit these
+data/*.gz
+data/*.txt
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environment
+.venv/
+venv/
+
+# OS
+.DS_Store
